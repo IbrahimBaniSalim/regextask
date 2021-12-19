@@ -1,0 +1,18 @@
+.register-con {
+  position: relative;
+  background-color: #fff;
+  width: 350px;
+  padding: 20px;
+}
+.btn {
+  background-color: #f05454;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.register-con h3 {
+  background-color: #f05454;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: 600;
+}

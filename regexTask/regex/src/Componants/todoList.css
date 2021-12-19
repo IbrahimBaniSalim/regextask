@@ -1,0 +1,55 @@
+.todo-list {
+  position: relative;
+  background-color: #fff;
+  width: 350px;
+  padding: 20px;
+  white-space: nowrap;
+}
+.todo-list h3 {
+  background-color: #f05454;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: 600;
+}
+.todo-list input {
+  padding-right: 40px;
+  width: 100%;
+}
+.todo-list ul {
+  position: relative;
+  padding: 20px;
+}
+.todo-list ul li {
+  position: relative;
+  list-style: none;
+  padding: 15px 0;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.1);
+}
+
+.todo-list ul li:last-child {
+  border-bottom: none;
+}
+.todo-list ul li button {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+  background: #f05945;
+  border: none;
+  color: #fff;
+  top: 16px;
+  right: -19px;
+}
+.add-btn button {
+  border-radius: 5px;
+  width: 50px;
+  height: 40px;
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  background: green;
+  color: #fff;
+  border: none;
+}
